@@ -1,0 +1,971 @@
+Index: Exec047.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec047.py b/Exec047.py
+new file mode 100644
+--- /dev/null	(date 1732061242523)
++++ b/Exec047.py	(date 1732061242523)
+@@ -0,0 +1,3 @@
++for contagem in range(2,51,2):
++    if (contagem%2 == 0):
++        print(contagem, end=' ')
+Index: Exec048.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec048.py b/Exec048.py
+new file mode 100644
+--- /dev/null	(date 1732063706327)
++++ b/Exec048.py	(date 1732063706327)
+@@ -0,0 +1,10 @@
++soma = 0
++cont = 0
++for contador in range(1,501,2):
++    if contador%3 ==0:
++        soma  = soma+contador
++        cont = cont + 1
++
++print(f'O resultado da soma dos {cont} números será: {soma}')
++
++
+Index: Exec049.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec049.py b/Exec049.py
+new file mode 100644
+--- /dev/null	(date 1733182523165)
++++ b/Exec049.py	(date 1733182523165)
+@@ -0,0 +1,3 @@
++numero = int(input('Digite um número:'))
++for a in range (1,11):
++    print(numero*a)
+\ No newline at end of file
+Index: Exec007.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec007.py b/Exec007.py
+new file mode 100644
+--- /dev/null	(date 1720572698972)
++++ b/Exec007.py	(date 1720572698972)
+@@ -0,0 +1,14 @@
++import pygame
++
++# Inicializa o mixer do Pygame
++pygame.mixer.init()
++
++# Carrega o arquivo de som
++pygame.mixer.music.load("C:/Users/SILTec/Downloads/20 Seconds Timer with Music.mp3")
++
++# Toca o som
++pygame.mixer.music.play()
++
++# Mantém o programa em execução até o som terminar
++while pygame.mixer.music.get_busy():
++    pygame.time.Clock().tick(20)
+Index: Exec008.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec008.py b/Exec008.py
+new file mode 100644
+--- /dev/null	(date 1715554622134)
++++ b/Exec008.py	(date 1715554622134)
+@@ -0,0 +1,4 @@
++valor = int(input('Mencione a metragem:'))
++cm = valor*100
++mm = (valor*100)*10
++print('{} metros equivalem a {} cm ou {} mm'.format(valor,cm,mm))
+Index: Exec009.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec009.py b/Exec009.py
+new file mode 100644
+--- /dev/null	(date 1733182523170)
++++ b/Exec009.py	(date 1733182523170)
+@@ -0,0 +1,12 @@
++numero = int(input('Digite um número:'))
++print('Veja a tabuada:')
++print(numero,'*','1', '=', numero*1)
++print(numero,'*','2', '=', numero*2)
++print(numero,'*','3', '=', numero*3)
++print(numero,'*','4', '=', numero*4)
++print(numero,'*','5', '=', numero*5)
++print(numero,'*','6', '=', numero*6)
++print(numero,'*','7', '=', numero*7)
++print(numero,'*','8', '=', numero*8)
++print(numero,'*','9', '=', numero*9)
++print(numero,'*','10','=', numero*10)
+\ No newline at end of file
+Index: Exec011.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec011.py b/Exec011.py
+new file mode 100644
+--- /dev/null	(date 1715557987248)
++++ b/Exec011.py	(date 1715557987248)
+@@ -0,0 +1,5 @@
++largura = float(input('Digite a largura da parede:'))
++comprimento = float(input('Digite o comprimento da parede:'))
++area = largura*comprimento
++consumo = area/2
++print('Você irá gastar {} litros de tinta nesta sala de {} m²'.format(consumo,area))
+\ No newline at end of file
+Index: Exec012.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec012.py b/Exec012.py
+new file mode 100644
+--- /dev/null	(date 1722711564287)
++++ b/Exec012.py	(date 1722711564287)
+@@ -0,0 +1,17 @@
++nome_completo = input('Digite o seu nome: ')
++
++nome_maiusculas = nome_completo.upper()
++
++nome_minuscula = nome_completo.lower()
++
++quantidade_letras = len(nome_completo.replace("", ""))
++
++primeiro_nome = nome_completo.split()[1]
++
++primeiro_nome_qtd = len(primeiro_nome)
++
++
++print(f"Nome em letras maiúsculas: {nome_maiusculas}")
++print(f"Nome em letras minúsculas: {nome_minuscula}")
++print(f"Quantidade de letras (sem espaços): {quantidade_letras}")
++print(f"Quantidade de letras do primeiro nome: {primeiro_nome_qtd}")
+Index: Exec013.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec013.py b/Exec013.py
+new file mode 100644
+--- /dev/null	(date 1726960182373)
++++ b/Exec013.py	(date 1726960182373)
+@@ -0,0 +1,8 @@
++salario = float(input('Informe a sua remuneração atual:'))
++if salario >= 5000.00:
++    aumento = salario + (salario*0.15)
++    print('\nCom o reajuste o seu salário terá um aumento de 15%, então você receberá R$ {} reais no próximo mês'.format(aumento))
++else:
++    aumento1 = salario + (salario * 0.10)
++    print(f'\nO senhor(a) não está habilitado para receber os 15% sobre salário Original, mas receberá 10% de Reajuste equivalente a R$ {aumento1}')
++
+Index: pandas_dados.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pandas_dados.py b/pandas_dados.py
+new file mode 100644
+--- /dev/null	(date 1726959669212)
++++ b/pandas_dados.py	(date 1726959669212)
+@@ -0,0 +1,13 @@
++import pandas as pd
++
++# Cria o DataFrame inicial
++diretorio = {'Autor': ['Anderson Ramos'], 'Livro': ['Dom Casmorro'], 'Preço': [50.0]}
++df = pd.DataFrame(diretorio)
++
++# Cria um DataFrame com a nova linha
++nova_linha = pd.DataFrame([{'Autor': 'Maria', 'Livro': 'Sherek', 'Preço': 80.00}])
++
++# Adiciona a nova linha ao DataFrame existente usando concat
++df = pd.concat([df, nova_linha], ignore_index=True)
++
++print(df)
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1732407462057)
++++ b/.idea/vcs.xml	(date 1732407462057)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Exec026.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec026.py b/Exec026.py
+new file mode 100644
+--- /dev/null	(date 1723516929052)
++++ b/Exec026.py	(date 1723516929052)
+@@ -0,0 +1,7 @@
++nome_completo = input('Digite uma palavra: ')
++
++primeiro_nome = nome_completo.split() [0]
++
++ultimo_nome = nome_completo.split() [3]
++
++print(f'O seu primeiro nome é: {primeiro_nome}, o seu último nome será: {ultimo_nome}')
+\ No newline at end of file
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-16LE
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(date 1732408364023)
++++ b/README.md	(date 1732408364023)
+@@ -0,0 +1,1 @@
++# pythonProject
+Index: .idea/pythonProject.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/pythonProject.iml b/.idea/pythonProject.iml
+new file mode 100644
+--- /dev/null	(date 1715548897906)
++++ b/.idea/pythonProject.iml	(date 1715548897906)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.venv" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1715548897965)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1715548897965)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1715548897931)
++++ b/.idea/modules.xml	(date 1715548897931)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1715548897958)
++++ b/.idea/misc.xml	(date 1715548897958)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.12 (pythonProject)" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (pythonProject)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1715548898047)
++++ b/.idea/.gitignore	(date 1715548898047)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: Exec034.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec034.py b/Exec034.py
+new file mode 100644
+--- /dev/null	(date 1728609581837)
++++ b/Exec034.py	(date 1728609581837)
+@@ -0,0 +1,8 @@
++from datetime import date
++ano = int(input('Que ano você quer analisar? '))
++if ano ==0:
++    ano = date.today().year
++if ano % 4 == 0 and ano % 100 != 0 or ano % 400 ==0:
++    print(f'\nO ano de {ano} Bissexto')
++else:
++    print(f'\n{ano} não é um ano bissexto ')
+\ No newline at end of file
+Index: Exec035.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec035.py b/Exec035.py
+new file mode 100644
+--- /dev/null	(date 1729367429319)
++++ b/Exec035.py	(date 1729367429319)
+@@ -0,0 +1,22 @@
++entrada1 = int(input('Digite o primeiro número: '))
++entrada2 = int(input('Digite o segundo número: '))
++entrada3 = int(input('Digite o terceiro número: '))
++
++# Verificando os menores valores de entrada
++menor = entrada1
++
++if entrada2 < entrada1 and entrada2 < entrada3:
++    menor = entrada2
++if entrada3 < entrada1 and entrada3 < entrada2:
++    menor = entrada3
++print(f'\n\033[0;31mO menor número entre os digitados é o {menor}\033[m')
++
++# Verificando os maiores valores de entrada
++maior = entrada1
++
++if entrada2 > entrada1 and entrada2 > entrada3:
++    maior = entrada2
++if entrada3 > entrada2 and entrada3 > entrada1:
++    maior = entrada3
++print(f'\n\033[4;35mO maior número entre os digitados é o {maior}\033[m')
++
+Index: Exec036.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec036.py b/Exec036.py
+new file mode 100644
+--- /dev/null	(date 1729367229967)
++++ b/Exec036.py	(date 1729367229967)
+@@ -0,0 +1,13 @@
++entrada = float(input('Informe o seu salário: '))
++
++rendapadrao = 1250.00
++conversao = entrada+(entrada*0.15)
++conversao1 = entrada + (entrada * 0.10)
++
++#/033[7,30,41
++
++# Result para salários acima de R$ 1250.00
++if entrada <= rendapadrao:
++   print('\n\033[7;31;40m'+f'A Sil Tecnologia gostaria de informar que o seu salário foi ajustado para R$ {conversao}\033[m\n')
++if entrada > rendapadrao:
++   print(f'\n\033[4;30;42mO seu salário teve um ajuste de 10%, agora o senhor(a) vai passar a receber R$ {conversao1}\033[m')
+\ No newline at end of file
+Index: Analisando_Triangulo.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Analisando_Triangulo.py b/Analisando_Triangulo.py
+new file mode 100644
+--- /dev/null	(date 1728956646785)
++++ b/Analisando_Triangulo.py	(date 1728956646785)
+@@ -0,0 +1,13 @@
++print('\033[1;30;41m' + '--<>' * 20 + '\033[m')
++print('\n\033[1;34mAnalisando Triângulo:\033[m\n')  # Texto em azul
++print('\033[1;30;41m' + '--<>' * 20 + '\033[m')
++# print('\033[7;32;41m')
++
++a = float(input('\n- Informe a medida do lado A: '))
++b = float(input('\n- Informe a medida do lado B: '))
++c = float(input('\n- Informe a medida do lado C: '))
++
++if a + b > c and a + c > b and b + c > a:
++    print('\nEssas medidas formam um triângulo! ')
++else:
++    print('\nEssas medidas não formam um triângulo !')
+Index: Analise.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Analise.py b/Analise.py
+new file mode 100644
+--- /dev/null	(date 1729366309092)
++++ b/Analise.py	(date 1729366309092)
+@@ -0,0 +1,51 @@
++def validar_registro(registro, manual):
++    erros = []
++    for campo in manual:
++        inicio, fim, tipo, descricao = campo
++        valor = registro[inicio - 1:fim].strip()  # Extraindo valor com base nas posições
++
++        if tipo == "Numérico" and not valor.isdigit():
++            erros.append(f"{descricao}: Valor '{valor}' não é numérico.")
++        elif tipo == "Char" and any(c.isdigit() for c in valor):
++            erros.append(f"{descricao}: Valor '{valor}' contém dígitos, mas deveria ser texto.")
++
++    return erros
++
++
++def validar_arquivo(caminho_arquivo, manual):
++    with open(caminho_arquivo, "r", encoding="utf-8") as f:
++        linhas = f.readlines()
++
++    total_erros = 0
++    for i, linha in enumerate(linhas):
++        erros = validar_registro(linha, manual)
++        if erros:
++            print(f"Erros na linha {i + 1}:")
++            for erro in erros:
++                print(f"  - {erro}")
++            total_erros += len(erros)
++
++    if total_erros == 0:
++        print("O arquivo está em conformidade com o manual.")
++    else:
++        print(f"Total de erros encontrados: {total_erros}")
++
++
++# Especificação dos campos com base no manual (posições iniciais, finais, tipo e descrição)
++manual_layout = [
++    (1, 1, "Numérico", "Tipo de Registro"),
++    (2, 2, "Char", "Tipo de Declaração"),
++    (3, 3, "Numérico", "Tipo de Identificação"),
++    (4, 17, "Numérico", "CNPJ/CPF"),
++    (18, 19, "Numérico", "Mês de Referência"),
++    (20, 23, "Numérico", "Ano de Referência"),
++    (244, 249, "Numérico", "Código de Atividade"),
++    (242, 242, "Char", "Imposto Retido"),
++    (243, 243, "Numérico", "Situação da Nota Fiscal"),
++    ()
++    # Adicione outros campos necessários aqui com base no manual
++]
++
++# Caminho do arquivo de texto a ser validado
++caminho_arquivo = "C:\Users\SILTec\Downloads\Arquivo competencia Set_2024 (2) (3).txt"
++validar_arquivo(caminho_arquivo, manual_layout)
+Index: Mundo2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Mundo2.py b/Mundo2.py
+new file mode 100644
+--- /dev/null	(date 1729371531999)
++++ b/Mundo2.py	(date 1729371531999)
+@@ -0,0 +1,9 @@
++name = str(input('Digite um nome:')).strip()
++
++if name == 'Anderson':
++    print('\nQue nome lindo Anderson'+f'\n\033[0;34mSeja bem-vindo\033[m')
++elif name == 'Maria' or name == 'Tamara':
++    print(f'\nQue nome perfeito {name} !')
++    print(f'\nSeja bem-vindo {name} !')
++else:
++    print(f'\nSeja bem-vindo {name} !')
+\ No newline at end of file
+Index: Exec36.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec36.py b/Exec36.py
+new file mode 100644
+--- /dev/null	(date 1729379100873)
++++ b/Exec36.py	(date 1729379100873)
+@@ -0,0 +1,18 @@
++name = str(input('\nInforme o seu nome completo:')).strip()
++print(f'\nPrazer, {name}. Prencha as informações abaixo para prosseguir com a analise de crédito do senhor(a)!')
++house = float(input('\nInforme o valor da casa: R$'))
++renda = float(input('\nInforme a sua renda bruta: R$ '))
++anos = int(input('\nEm quantas anos o senhor(a) quer negociar?'))
++prestacao = (anos*12)
++
++valorDaParcela = (house/prestacao)
++limiteDePArcela = (renda*0.30)
++
++if valorDaParcela > limiteDePArcela:
++    print(f'\n\033[7;30;41m seu empréstimo foi negado devido o valor da parcela ser superior a 30% (R$ {valorDaParcela}) da sua renda\033[m')
++else:
++    print(f'\nParabéns, {name} o empréstimo foi aprovado!')
++    print(f'\nO valor da casa foi estinado em R${house:,.2f} reais')
++    print(f'\n\033[0;32mQue será divido em {prestacao} parcelas que serão pagas no valor de R${valorDaParcela:,.2f} reais ao longo de {prestacao} meses\033[m')
++
++
+Index: Exec37.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec37.py b/Exec37.py
+new file mode 100644
+--- /dev/null	(date 1729381808317)
++++ b/Exec37.py	(date 1729381808317)
+@@ -0,0 +1,25 @@
++# Entrada
++numero = int(input('\nDigite um número: '))
++# Verificando a escolha do usuário
++escolha = int(input('''\nEscolha uma das opções abaixo:\n 
++[1] - Binário
++[2] - Octal
++[3] - Hexadecimal
++\nOpção:
++'''))
++
++# Definindo a regra do programa
++binario = bin(numero)
++octal = oct(numero)
++hexadecimal = hex(numero)
++
++# Imprimindo a opção escolhida pelo usuário
++
++if escolha ==1:
++    print(f'\n\033[0;31mEsse número será convertido de {numero} para binário resultando em "{binario[2:]}\033[m"')
++elif escolha ==2:
++    print(f'\nEsse número será convertido de {numero} para Octal resultando em {octal[2:]} !')
++elif escolha ==3:
++    print(f'\nEsse número será convertido de {numero} para Hexadecimal resultando em "{hexadecimal[2:]}"')
++else:
++    print('\nTente novamente, pois essa opção não existe.')
+\ No newline at end of file
+Index: Exec38.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec38.py b/Exec38.py
+new file mode 100644
+--- /dev/null	(date 1729382421766)
++++ b/Exec38.py	(date 1729382421766)
+@@ -0,0 +1,9 @@
++num1 = int(input('Digite o primeiro número:'))
++num2 = int(input('Digite o segundo número:'))
++
++if num1 > num2:
++    print('\nO primeiro valor é maior')
++elif num2 > num1:
++    print('\nO segundo valor é maior')
++else:
++    print('\nNão existe valor maior, os dois são iguais')
+Index: Exec39.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec39.py b/Exec39.py
+new file mode 100644
+--- /dev/null	(date 1729386524189)
++++ b/Exec39.py	(date 1729386524189)
+@@ -0,0 +1,19 @@
++from datetime import date
++
++name = str(input('Informe o seu nome completo:')).strip()
++ano_atual = date.today().year
++anoNascimento = int(input('Informe o seu ano de Nascimento: '))
++
++idade = (ano_atual-anoNascimento)
++foraDaFaixa=(idade-18)
++
++if idade == 18:
++    print(f'\nOlá, {name} gostaríamos de informar que o senhor(a) deve se alistar no exercito')
++elif idade > 18:
++    print(f'\n{name} você já passou {foraDaFaixa} anos do tempo correto para alistamento militar')
++else:
++    print(f'\n{name} falta {foraDaFaixa*(-1)} anos para o seu alistamento')
++
++
++
++
+Index: Exec40.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec40.py b/Exec40.py
+new file mode 100644
+--- /dev/null	(date 1729392430936)
++++ b/Exec40.py	(date 1729392430936)
+@@ -0,0 +1,15 @@
++name = str(input('Informe o seu nome:'))
++n1 = float(input('Digite a sua primeira nota:'))
++n2 = float(input('Digite a sua segunda nota:'))
++media = (n1+n2)/2
++
++print(f'\nAluno:{name}')
++
++print(f'\nNota:{media}')
++
++if media <= 5:
++    print('\nStatus:'+f'\033[0;31mReprovado(a)\033[m')
++elif media > 5 and media <= 6.9:
++    print('\nStatus:'+f'\033[0;33mRecuperação\033[m')
++else:
++    print('\nStatus:'+f'\033[0;32mAprovado\033[m')
+Index: Exec041.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec041.py b/Exec041.py
+new file mode 100644
+--- /dev/null	(date 1731787154151)
++++ b/Exec041.py	(date 1731787154151)
+@@ -0,0 +1,19 @@
++import datetime
++# Entrada de Dados
++nasc = int(input('Informe o seu ano de Nascimento: '))
++atual = datetime.datetime.now().year
++calculo = (atual-nasc)
++
++if calculo<=9:
++    print(f'\nVocê possui {calculo} anos de idade !')
++    print('Categoria: Mirim')
++elif calculo<=19:
++    print(f'\nVocê possui {calculo} anos de idade !')
++    print('Categoria: Júnior')
++elif calculo<=25:
++    print(f'\nVocê possui {calculo} anos de idade !')
++    print('Categoria: Sênior')
++else:
++    print('Categoria: Master')
++    print(f'\033[0;33mVocê possui {calculo} anos de idade\033[m')
++
+Index: Exec023.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec023.py b/Exec023.py
+new file mode 100644
+--- /dev/null	(date 1725842440191)
++++ b/Exec023.py	(date 1725842440191)
+@@ -0,0 +1,22 @@
++while True:
++    Numero = input("Digite um número entre 0 e 99999: ")
++
++    if not Numero.isdigit():
++        print('Você digitou um número inválido! Tente novamente!')
++        continue
++
++    NumeroInt = int(Numero)
++    if NumeroInt < 0 or NumeroInt > 99999:
++        print('Você digitou um número fora do intervalo permitido! Tente novamente!')
++        continue
++
++    # Se chegarmos aqui, o número é válido
++    Numero = Numero.zfill(5)  # Preenche com zeros à esquerda para garantir 5 dígitos
++    unidade = Numero[-1]
++    dezena = Numero[-2]
++    centena = Numero[-3]
++    milhar = Numero[-4]
++    DezenaMilhar = Numero[-5]
++
++    print(f'\nUnidade: {unidade}', f'Dezena: {dezena}', f'Centena: {centena}', f'Milhar: {milhar}', f'Dezena de Milhar: {DezenaMilhar}')
++    break  # Saímos do loop porque o número é válido
+Index: Exec042.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec042.py b/Exec042.py
+new file mode 100644
+--- /dev/null	(date 1731789166573)
++++ b/Exec042.py	(date 1731789166573)
+@@ -0,0 +1,19 @@
++r1 = float(input('Digite um número: '))
++r2 = float(input('Digite o segundo número: '))
++r3 = float(input('Digite o terceiro: '))
++
++if r1<r2+r3 and r2<r1+r3 and r3<r2+r1:
++    print('Essas partes formam um triângulo.')
++    if(r1 == r2 == r3):
++        print('EQUILÁTERO: todos os lados iguais')
++        print(r1, r2, r3)
++    elif r1 != r2 != r3 != r1:
++        print('ISÓSCELES: dois lados iguais, um diferente')
++        print(r1, r2, r3)
++    else:
++        print('ESCALENO: todos os lados diferentes')
++else:
++     print('Esses números não formam um triângulo.')
++
++
++
+Index: Exec024.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec024.py b/Exec024.py
+new file mode 100644
+--- /dev/null	(date 1722715887350)
++++ b/Exec024.py	(date 1722715887350)
+@@ -0,0 +1,11 @@
++def verificar_sobrenome_silva():
++ nome_completo = input('Digite o seu nome completo: ')
++
++ nomes = nome_completo.split()
++
++ if "Silva" in nomes:
++     print(f'O Nome completo é: {nome_completo}')
++ else:
++     print('Não possui sobrenome com Silva')
++
++verificar_sobrenome_silva()
+\ No newline at end of file
+Index: Exec044.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec044.py b/Exec044.py
+new file mode 100644
+--- /dev/null	(date 1731970716279)
++++ b/Exec044.py	(date 1731970716279)
+@@ -0,0 +1,37 @@
++print('\n----- Mercado Pago ----')
++valor = float(input('\nInforme o valor do Item: (R$)'))
++
++menu = {
++    1: 'à vista dinheiro/cheque',
++    2: 'à vista no cartão',
++    3: 'em até 2x no cartão',
++    4: '3x ou mais no cartão'
++}
++
++# Exibindo formas de pagamento
++print('\n----- Formas de pagamento -----')
++for numero,item in menu.items():
++    print(f'\n{numero}-{item}')
++
++# Escolhendo forma de pagamento
++escolha = int(input('\nDigite a sua forma de pagamento: '))
++
++# Verificar e exbir a forma de pagamento escolhida
++if escolha in menu:
++    print(f'\nvocê escolheu a opção: {menu[escolha]}')
++    if escolha == 1:
++        desconto_10 = (valor-(valor*0.10))
++        print(f'\nO senhor(a) ganhou 10% de desconto nesta compra. Pagará apenas R$ {desconto_10:.2f} reais')
++    elif escolha == 2:
++        desconto_5 = (valor-(valor*0.05))
++        print(f'\nO senhor(a) ganhou 5% de desconto nesta compra. Pagará apenas R${desconto_5:.2f} reais')
++    elif escolha == 3:
++        print(f'\nO senhor(a) devera pagar duas parcelas de R${valor:.2f} reais sem juros pelo item')
++    elif escolha == 4:
++        juros = (valor+(valor*0.20))
++        print(f'\nO senhor(a) terá de pagar essa compra em três parcelas com adicional de 20% a mais nesta compra. Então tudo irá lhe custar R${juros:.2f} reais')
++else:
++    print('\nEscolha uma opção válida !')
++
++
++
+Index: Exec025.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec025.py b/Exec025.py
+new file mode 100644
+--- /dev/null	(date 1725669756279)
++++ b/Exec025.py	(date 1725669756279)
+@@ -0,0 +1,5 @@
++nome_completo = input('Informe o seu nome:').strip()
++if 'SILVA' in nome_completo.upper():
++    print(f'O seu nome possui silva, Veja o nome completo: {nome_completo}')
++else:
++    print('Não possui Silva entre o seu nome')
+\ No newline at end of file
+Index: Exec016.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec016.py b/Exec016.py
+new file mode 100644
+--- /dev/null	(date 1720573367617)
++++ b/Exec016.py	(date 1720573367617)
+@@ -0,0 +1,21 @@
++import pygame
++
++# Inicializa o mixer do Pygame
++pygame.mixer.init()
++
++# Carrega o arquivo de som
++pygame.mixer.music.load("C:/Users/SILTec/Downloads/20 Seconds Timer with Music.mp3")
++
++#Toca o som
++pygame.mixer.music.play()
++
++# mantem tocando até terminar
++while pygame.mixer.music.get_busy():
++    pygame.time.Clock().tick(50)
++
++
++
++
++
++
++
+Index: Exec045.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec045.py b/Exec045.py
+new file mode 100644
+--- /dev/null	(date 1732063162585)
++++ b/Exec045.py	(date 1732063162585)
+@@ -0,0 +1,47 @@
++import  random
++import time
++
++# Variáveis de entrada
++print('\n\033[0;33m--- Jokenpô  ---\033[m')
++
++menu = {
++    1: 'Pedra',
++    2: 'Papel',
++    3: 'Tesoura'
++}
++
++# Exibindo as opções do Jokenpô
++print(f'\n--- Opções ---')
++for numero, item in menu.items():
++    print(f'\n{numero}-{item}')
++
++# Escolha Pedra, papel ou tesoura
++
++# Usuário
++escolhendo = int(input('\nInforme a sua escolha: '))
++
++# Máquina
++inteiro = random.choice(list(menu.keys())) #[1,2,3]
++string = menu[inteiro] # (1- Pedra, 2- Papel, 3- Tesoura)
++
++# Processando
++time.sleep(1)
++print('\nJO')
++time.sleep(1)
++print('KEN')
++time.sleep(1)
++print('PÔ !!!')
++time.sleep(1)
++
++# Verificando a escolha do Usuário
++if escolhendo in menu:
++    print(f'\nO Usuário escolheu {menu[escolhendo]}')
++    print(f'\nA Máquina escolheu {string}')
++    if (escolhendo == 1 and inteiro == 3) or (escolhendo == 2 and inteiro == 1) or (escolhendo == 3 and inteiro == 2):
++      print(f'\nO Usuário ganhou')
++    elif escolhendo == inteiro:
++      print('\nEmpate !')
++    else:
++      print('\nMáquina ganhou !')
++else:
++    print('\nEscolha uma opção válida !')
+Index: Exec046.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec046.py b/Exec046.py
+new file mode 100644
+--- /dev/null	(date 1732060063691)
++++ b/Exec046.py	(date 1732060063691)
+@@ -0,0 +1,7 @@
++from time import sleep
++for a in range(10,-1,-1):
++    print(f'{a}')
++    sleep(0.5)
++print('\n\033[0;31mFeliz ano novo!\033[m')
++print("Fim da contagem regressiva! 🚀")
++
+Index: Exec031.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec031.py b/Exec031.py
+new file mode 100644
+--- /dev/null	(date 1727747549782)
++++ b/Exec031.py	(date 1727747549782)
+@@ -0,0 +1,39 @@
++import os
++import time
++from random import randint
++
++
++# Inicialização
++def limpar_tela():
++    os.system('cls' if os.name == 'nt' else 'clear')
++
++
++x = -1  # Inicializando com um valor inválido
++
++numero_secreto = randint(0,5)
++
++while x < 0 or x > 5:
++    try:
++        x = int(input('Digite um número entre 0 e 5 em que você acredita que eu tenha pensado: '))
++        if x < 0 or x > 5:
++            print('Tente Novamente, o número preenchido está fora da faixa permitida!')
++
++    except ValueError:
++        print('Digite um número válido: ')
++
++# Limpar a tela
++limpar_tela()
++
++# Processando
++print('\nProcessando')
++time.sleep(1)
++
++print('*' * 50)
++
++if x == numero_secreto:
++   print(f'Eu pensei {x}, parabéns você adivinhou! ')
++   print('*' * 50)
++else:
++    print(f'Eu pensei {x}, mas o correto e ó {numero_secreto}! ')
++    print('*' * 50)
++

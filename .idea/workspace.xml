@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a93581a-b0ef-4455-bc86-6a6aa83c1327" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Exec049.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec049.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec050.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec051.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec052.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec053.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec054.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec055.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec056.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec057.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec058.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec059.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exec060.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Exec013.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2gNrQOjM6yGlsrXTBRkPcOfpbm1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Analisando_Triangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Analise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec005.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec007.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec008.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec009.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec011.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec012.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec013.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec016.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec023.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec024.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec025.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec026.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec027.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec031.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec032.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec033.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec034.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec035.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec036.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec041.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec042.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec043.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec044.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec045.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec046.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec047.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec048.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec049.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec050.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec051.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec052.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec053.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec054.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec055.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec056.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec057.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec058.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec059.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec060.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec0]10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec36.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec37.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec38.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec39.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exec40.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mundo2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_dados.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SILTec/PycharmProjects/pythonProject&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SILTec\PycharmProjects\pythonProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Exec060">
+    <configuration name="Exec056" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exec056.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exec057" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exec057.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exec058" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exec058.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exec059" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exec059.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exec060" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exec060.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Exec060" />
+        <item itemvalue="Python.Exec059" />
+        <item itemvalue="Python.Exec058" />
+        <item itemvalue="Python.Exec057" />
+        <item itemvalue="Python.Exec056" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a93581a-b0ef-4455-bc86-6a6aa83c1327" name="Changes" comment="" />
+      <created>1715548859954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715548859954</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exec050.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exec052.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exec053.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exec054.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exec055.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exec055.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

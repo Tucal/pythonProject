@@ -1,0 +1,28 @@
+Index: Exec043.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Exec043.py b/Exec043.py
+new file mode 100644
+--- /dev/null	(date 1731858542272)
++++ b/Exec043.py	(date 1731858542272)
+@@ -0,0 +1,18 @@
++peso = float(input('Digite o seu peso:'))
++altura = float(input('Informe a sua altura:'))
++
++# Calculando Índice de Massa Corporal (IMC)
++imc = (peso/(altura**2))
++
++if imc < 18.5:
++    print(f'\nImc "{imc:.2f}" - Abaixo do Peso Normal')
++elif imc >= 18.5 and imc < 25:
++    print(f'\nImc "{imc:.2f}" - Peso Ideal')
++elif imc > 25 and imc < 30:
++    print(f'\nImc "{imc:.2f}" - Sobrepeso')
++elif imc > 30 and imc <= 40:
++    print(f'\nImc "{imc:.2f}" - Obesidade')
++else:
++    print(f'\n\033[0;31m Imc "{imc:.2f}" - Obesidade Mórbida\033[m')
++
++
